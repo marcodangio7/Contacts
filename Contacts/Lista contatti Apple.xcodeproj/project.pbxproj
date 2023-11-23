@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F64B1E652B0CA738005DEEBE /* Lista_contatti_AppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E642B0CA738005DEEBE /* Lista_contatti_AppleApp.swift */; };
+		F64B1E672B0CA738005DEEBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E662B0CA738005DEEBE /* ContentView.swift */; };
+		F64B1E692B0CA738005DEEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64B1E682B0CA738005DEEBE /* Assets.xcassets */; };
+		F64B1E6C2B0CA738005DEEBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64B1E6B2B0CA738005DEEBE /* Preview Assets.xcassets */; };
+		F64B1E762B0CA739005DEEBE /* Lista_contatti_AppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E752B0CA739005DEEBE /* Lista_contatti_AppleTests.swift */; };
+		F64B1E802B0CA739005DEEBE /* Lista_contatti_AppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E7F2B0CA739005DEEBE /* Lista_contatti_AppleUITests.swift */; };
+		F64B1E822B0CA739005DEEBE /* Lista_contatti_AppleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E812B0CA739005DEEBE /* Lista_contatti_AppleUITestsLaunchTests.swift */; };
+		F64B1E912B0CBBEC005DEEBE /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E902B0CBBEC005DEEBE /* Favourites.swift */; };
+		F64B1E932B0CBBF1005DEEBE /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E922B0CBBF1005DEEBE /* Recents.swift */; };
+		F64B1E972B0CBC00005DEEBE /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E962B0CBC00005DEEBE /* Keypad.swift */; };
+		F64B1E992B0CBC07005DEEBE /* Voicemail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B1E982B0CBC07005DEEBE /* Voicemail.swift */; };
+		F6E258BA2B0F4C2000951A41 /* PrimoContatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E258B92B0F4C2000951A41 /* PrimoContatto.swift */; };
+		F6E258BC2B0F4C2400951A41 /* PrimoContatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E258BB2B0F4C2400951A41 /* PrimoContatto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F64B1E722B0CA739005DEEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64B1E592B0CA738005DEEBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64B1E602B0CA738005DEEBE;
+			remoteInfo = "Lista contatti Apple";
+		};
+		F64B1E7C2B0CA739005DEEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64B1E592B0CA738005DEEBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64B1E602B0CA738005DEEBE;
+			remoteInfo = "Lista contatti Apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F64B1E612B0CA738005DEEBE /* Lista contatti Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lista contatti Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64B1E642B0CA738005DEEBE /* Lista_contatti_AppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_contatti_AppleApp.swift; sourceTree = "<group>"; };
+		F64B1E662B0CA738005DEEBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F64B1E682B0CA738005DEEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F64B1E6B2B0CA738005DEEBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F64B1E712B0CA739005DEEBE /* Lista contatti AppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lista contatti AppleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64B1E752B0CA739005DEEBE /* Lista_contatti_AppleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_contatti_AppleTests.swift; sourceTree = "<group>"; };
+		F64B1E7B2B0CA739005DEEBE /* Lista contatti AppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lista contatti AppleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64B1E7F2B0CA739005DEEBE /* Lista_contatti_AppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_contatti_AppleUITests.swift; sourceTree = "<group>"; };
+		F64B1E812B0CA739005DEEBE /* Lista_contatti_AppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_contatti_AppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F64B1E902B0CBBEC005DEEBE /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		F64B1E922B0CBBF1005DEEBE /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		F64B1E962B0CBC00005DEEBE /* Keypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		F64B1E982B0CBC07005DEEBE /* Voicemail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voicemail.swift; sourceTree = "<group>"; };
+		F6E258B92B0F4C2000951A41 /* PrimoContatto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimoContatto.swift; path = "../../../app contatti redo/PrimoContatto.swift"; sourceTree = "<group>"; };
+		F6E258BB2B0F4C2400951A41 /* PrimoContatto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoContatto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64B1E5E2B0CA738005DEEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B1E6E2B0CA739005DEEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B1E782B0CA739005DEEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F64B1E582B0CA738005DEEBE = {
+			isa = PBXGroup;
+			children = (
+				F64B1E632B0CA738005DEEBE /* Lista contatti Apple */,
+				F64B1E742B0CA739005DEEBE /* Lista contatti AppleTests */,
+				F64B1E7E2B0CA739005DEEBE /* Lista contatti AppleUITests */,
+				F64B1E622B0CA738005DEEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F64B1E622B0CA738005DEEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64B1E612B0CA738005DEEBE /* Lista contatti Apple.app */,
+				F64B1E712B0CA739005DEEBE /* Lista contatti AppleTests.xctest */,
+				F64B1E7B2B0CA739005DEEBE /* Lista contatti AppleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64B1E632B0CA738005DEEBE /* Lista contatti Apple */ = {
+			isa = PBXGroup;
+			children = (
+				F64B1E642B0CA738005DEEBE /* Lista_contatti_AppleApp.swift */,
+				F64B1E902B0CBBEC005DEEBE /* Favourites.swift */,
+				F64B1E662B0CA738005DEEBE /* ContentView.swift */,
+				F6E258BB2B0F4C2400951A41 /* PrimoContatto.swift */,
+				F64B1E922B0CBBF1005DEEBE /* Recents.swift */,
+				F64B1E962B0CBC00005DEEBE /* Keypad.swift */,
+				F64B1E982B0CBC07005DEEBE /* Voicemail.swift */,
+				F64B1E682B0CA738005DEEBE /* Assets.xcassets */,
+				F64B1E6A2B0CA738005DEEBE /* Preview Content */,
+			);
+			path = "Lista contatti Apple";
+			sourceTree = "<group>";
+		};
+		F64B1E6A2B0CA738005DEEBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F64B1E6B2B0CA738005DEEBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F64B1E742B0CA739005DEEBE /* Lista contatti AppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F64B1E752B0CA739005DEEBE /* Lista_contatti_AppleTests.swift */,
+			);
+			path = "Lista contatti AppleTests";
+			sourceTree = "<group>";
+		};
+		F64B1E7E2B0CA739005DEEBE /* Lista contatti AppleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E258B92B0F4C2000951A41 /* PrimoContatto.swift */,
+				F64B1E7F2B0CA739005DEEBE /* Lista_contatti_AppleUITests.swift */,
+				F64B1E812B0CA739005DEEBE /* Lista_contatti_AppleUITestsLaunchTests.swift */,
+			);
+			path = "Lista contatti AppleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64B1E602B0CA738005DEEBE /* Lista contatti Apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64B1E852B0CA739005DEEBE /* Build configuration list for PBXNativeTarget "Lista contatti Apple" */;
+			buildPhases = (
+				F64B1E5D2B0CA738005DEEBE /* Sources */,
+				F64B1E5E2B0CA738005DEEBE /* Frameworks */,
+				F64B1E5F2B0CA738005DEEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lista contatti Apple";
+			productName = "Lista contatti Apple";
+			productReference = F64B1E612B0CA738005DEEBE /* Lista contatti Apple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64B1E702B0CA739005DEEBE /* Lista contatti AppleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64B1E882B0CA739005DEEBE /* Build configuration list for PBXNativeTarget "Lista contatti AppleTests" */;
+			buildPhases = (
+				F64B1E6D2B0CA739005DEEBE /* Sources */,
+				F64B1E6E2B0CA739005DEEBE /* Frameworks */,
+				F64B1E6F2B0CA739005DEEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64B1E732B0CA739005DEEBE /* PBXTargetDependency */,
+			);
+			name = "Lista contatti AppleTests";
+			productName = "Lista contatti AppleTests";
+			productReference = F64B1E712B0CA739005DEEBE /* Lista contatti AppleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F64B1E7A2B0CA739005DEEBE /* Lista contatti AppleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64B1E8B2B0CA739005DEEBE /* Build configuration list for PBXNativeTarget "Lista contatti AppleUITests" */;
+			buildPhases = (
+				F64B1E772B0CA739005DEEBE /* Sources */,
+				F64B1E782B0CA739005DEEBE /* Frameworks */,
+				F64B1E792B0CA739005DEEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64B1E7D2B0CA739005DEEBE /* PBXTargetDependency */,
+			);
+			name = "Lista contatti AppleUITests";
+			productName = "Lista contatti AppleUITests";
+			productReference = F64B1E7B2B0CA739005DEEBE /* Lista contatti AppleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64B1E592B0CA738005DEEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F64B1E602B0CA738005DEEBE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F64B1E702B0CA739005DEEBE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F64B1E602B0CA738005DEEBE;
+					};
+					F64B1E7A2B0CA739005DEEBE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F64B1E602B0CA738005DEEBE;
+					};
+				};
+			};
+			buildConfigurationList = F64B1E5C2B0CA738005DEEBE /* Build configuration list for PBXProject "Lista contatti Apple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F64B1E582B0CA738005DEEBE;
+			productRefGroup = F64B1E622B0CA738005DEEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64B1E602B0CA738005DEEBE /* Lista contatti Apple */,
+				F64B1E702B0CA739005DEEBE /* Lista contatti AppleTests */,
+				F64B1E7A2B0CA739005DEEBE /* Lista contatti AppleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64B1E5F2B0CA738005DEEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64B1E6C2B0CA738005DEEBE /* Preview Assets.xcassets in Resources */,
+				F64B1E692B0CA738005DEEBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B1E6F2B0CA739005DEEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B1E792B0CA739005DEEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64B1E5D2B0CA738005DEEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64B1E932B0CBBF1005DEEBE /* Recents.swift in Sources */,
+				F64B1E672B0CA738005DEEBE /* ContentView.swift in Sources */,
+				F6E258BC2B0F4C2400951A41 /* PrimoContatto.swift in Sources */,
+				F64B1E992B0CBC07005DEEBE /* Voicemail.swift in Sources */,
+				F64B1E912B0CBBEC005DEEBE /* Favourites.swift in Sources */,
+				F64B1E652B0CA738005DEEBE /* Lista_contatti_AppleApp.swift in Sources */,
+				F64B1E972B0CBC00005DEEBE /* Keypad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B1E6D2B0CA739005DEEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64B1E762B0CA739005DEEBE /* Lista_contatti_AppleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B1E772B0CA739005DEEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E258BA2B0F4C2000951A41 /* PrimoContatto.swift in Sources */,
+				F64B1E802B0CA739005DEEBE /* Lista_contatti_AppleUITests.swift in Sources */,
+				F64B1E822B0CA739005DEEBE /* Lista_contatti_AppleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64B1E732B0CA739005DEEBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64B1E602B0CA738005DEEBE /* Lista contatti Apple */;
+			targetProxy = F64B1E722B0CA739005DEEBE /* PBXContainerItemProxy */;
+		};
+		F64B1E7D2B0CA739005DEEBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64B1E602B0CA738005DEEBE /* Lista contatti Apple */;
+			targetProxy = F64B1E7C2B0CA739005DEEBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F64B1E832B0CA739005DEEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F64B1E842B0CA739005DEEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64B1E862B0CA739005DEEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lista contatti Apple/Preview Content\"";
+				DEVELOPMENT_TEAM = 5X8XG6ADDU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Lista-contatti-Apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F64B1E872B0CA739005DEEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lista contatti Apple/Preview Content\"";
+				DEVELOPMENT_TEAM = 5X8XG6ADDU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Lista-contatti-Apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F64B1E892B0CA739005DEEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8XG6ADDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Lista-contatti-AppleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lista contatti Apple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lista contatti Apple";
+			};
+			name = Debug;
+		};
+		F64B1E8A2B0CA739005DEEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8XG6ADDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Lista-contatti-AppleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lista contatti Apple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lista contatti Apple";
+			};
+			name = Release;
+		};
+		F64B1E8C2B0CA739005DEEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8XG6ADDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Lista-contatti-AppleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lista contatti Apple";
+			};
+			name = Debug;
+		};
+		F64B1E8D2B0CA739005DEEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8XG6ADDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Lista-contatti-AppleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lista contatti Apple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64B1E5C2B0CA738005DEEBE /* Build configuration list for PBXProject "Lista contatti Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64B1E832B0CA739005DEEBE /* Debug */,
+				F64B1E842B0CA739005DEEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64B1E852B0CA739005DEEBE /* Build configuration list for PBXNativeTarget "Lista contatti Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64B1E862B0CA739005DEEBE /* Debug */,
+				F64B1E872B0CA739005DEEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64B1E882B0CA739005DEEBE /* Build configuration list for PBXNativeTarget "Lista contatti AppleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64B1E892B0CA739005DEEBE /* Debug */,
+				F64B1E8A2B0CA739005DEEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64B1E8B2B0CA739005DEEBE /* Build configuration list for PBXNativeTarget "Lista contatti AppleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64B1E8C2B0CA739005DEEBE /* Debug */,
+				F64B1E8D2B0CA739005DEEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F64B1E592B0CA738005DEEBE /* Project object */;
+}
